@@ -2,8 +2,8 @@ from PIL import Image, ImageDraw
 from random import choice, randint
 
 def random_rgb():
-	colour = randint(122, 255), randint(122, 255), randint(122, 255)
-	return colour
+    colour = randint(122, 255), randint(122, 255), randint(122, 255)
+    return colour
 
 def refresh_pic(grid_num):
     """
@@ -28,7 +28,6 @@ def refresh_pic(grid_num):
 def render_pic(img, px_lst, cell_l):
     """
     :param list[] px_lst: The randomly generated grid
-    :param list pos: [x, y],the coor of the picture
     :param list size: [grid_width, grid_length],the size of one grid
     :rtype: None
     """
